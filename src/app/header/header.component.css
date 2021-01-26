@@ -1,0 +1,17 @@
+.example-spacer {
+    /* flex: 1 1 auto; */
+  }
+
+#toolbar {
+  z-index: 2;
+  position : fixed;
+  color: white;
+  background-color: rgb(11, 115, 250);
+  /* background-color: rgb(9, 63, 134); */
+}
+
+.example-button-container {
+  display: flex;
+  justify-content: center;
+  width: 120px;
+}

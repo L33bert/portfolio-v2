@@ -1,0 +1,140 @@
+<div class="body">
+    <!-- <div class="container"> -->
+        <div class="card">
+             <div class="layer" data-aos="fade-up">
+                <h2 class="text-center p-t-5">GET IN TOUCH</h2>
+            </div>
+            <div class="row margin-auto">
+                
+                <div class="col-sm-12" data-aos="fade-up">
+                    <!-- <h3 class="c-black p-t-15 m-l-5">
+                        Send me a message :
+                    </h3> -->
+                    <h1 class="c-black text-center">
+                        Send a message 
+                    </h1>
+                    <div id="sendEmail" class="">
+                        <form class="example-form" [formGroup]="contactForm" (ngSubmit)="onSubmit()">
+                            <mat-form-field class="full-width">
+                              <mat-label>Your name</mat-label>
+                              <input 
+                                    matInput placeholder="Ex. Juan Dela Cruz" 
+                                    [formControl]="name" 
+                                    required>
+                              <mat-error *ngIf="name.invalid">{{getErrorMessage()}}</mat-error>
+                            </mat-form-field>
+
+                            <mat-form-field class="full-width">
+                                <mat-label>Subject</mat-label>
+                                <input 
+                                    matInput placeholder="Ex. Meeting" 
+                                    [formControl]="subject" 
+                                    required>
+                                <mat-error *ngIf="subject.invalid">{{getErrorMessage()}}</mat-error>
+                            </mat-form-field>
+                             
+                            <mat-form-field class="full-width">
+                                  <mat-label>Your email</mat-label>
+                                  <input 
+                                    matInput placeholder="abc@mail.com" 
+                                    [formControl]="email" 
+                                    required>
+                                  <mat-error *ngIf="email.invalid">{{getErrorMessage()}}</mat-error>
+                            </mat-form-field>
+                             
+                            <mat-form-field class="full-width">
+                              <mat-label>Leave a message</mat-label>
+                              <textarea 
+                                    matInput placeholder="Ex. It makes me feel..." 
+                                    [formControl]="message" 
+                                    required>
+                              </textarea>
+                              <mat-error *ngIf="message.invalid">{{getErrorMessage()}}</mat-error>
+                            </mat-form-field>
+
+                            <button 
+                                id="sendButton"
+                                mat-button class="pull-right" 
+                                color="primary"
+                                type="submit"
+                                >
+                                Send
+                            </button>
+                          </form>
+                          
+                    </div>
+                </div>
+            </div>
+            <div class="row margin-auto" style="padding-top: 35px;">
+                <div class="col-sm-12" data-aos="fade-up">
+                    <h1 class="c-black text-center m-b-20">Stay Connected</h1>
+                    <div id="social" class="display-flex">
+                        
+                        <div class="margin-auto" style="padding-top:25px;">
+                            <div class="row">
+                                <div class="align-middle">
+                                    <a href="https://www.facebook.com/leebert.castro" class="display-flex" style="text-decoration:none;color:rgb(45,45,45)">
+                                        <img src="assets/social-fb.png" style="width:32px; height:32px;">
+                                        <p class="p-l-10 p-t-5">leebert.castro</p>
+                                    </a>
+                                </div>
+                                <div class="align-middle p-l-10">
+                                    <a href="https://www.youtube.com/channel/UCWqFH0X3W2MtbovVxTJdDtg" class="display-flex" style="text-decoration:none;color:rgb(45,45,45)">
+                                        <img class="m-l-10" src="assets/social-yt.png" style="width:32px; height:32px;">
+                                        <p class="p-l-10 p-t-5">Leebert Castro</p>
+                                    </a>
+                                </div>
+                                <div class="align-middle p-l-10">
+                                    <a href="https://www.instagram.com/leebertc45tr0" class="display-flex" style="text-decoration:none;color:rgb(45,45,45)">
+                                        <img class="m-l-10" src="assets/social-ig.png" style="width:32px; height:32px;">
+                                        <p class="p-l-10 p-t-5">leebertc45tr0</p>
+                                    </a>
+                                </div>
+                                <div class="align-middle p-l-10">
+                                    <a href="https://www.linkedin.com/in/leebert-castro-66b20b139/" class="display-flex" style="text-decoration:none;color:rgb(45,45,45)">
+                                        <img class="m-l-10" src="assets/social-li.png" style="width:32px; height:32px;">
+                                        <p class="p-l-10 p-t-5">leebert-castro-66b20b139</p>
+                                    </a>
+                                    
+                                    <!-- <button mat-icon-button color="" class="c-social-color" matTooltip="Gmail" matTooltipPosition="bottom">
+                                    </button> -->
+                                    <!-- <p class="p-t-15 m-l-5">Leebert Castro</p> -->
+                                </div>
+                                 <div class="align-middle p-l-10">
+                                    <a href="#" class="display-flex" style="text-decoration:none;color:rgb(45,45,45)">
+                                        <img class="m-l-10" src="assets/social-gmail.png" style="width:32px; height:32px;">
+                                        <p class="p-l-10 p-t-5">leebertcastro@gmail.com</p>
+                                    </a>
+                                </div>
+                            </div>
+                            <!-- <div class="row">   
+                                <div class="align-middle">
+                                    <button mat-icon-button color="" class="c-social-color" matTooltip="Youtube Channel" matTooltipPosition="left">
+                                        <mat-icon>videocam</mat-icon>
+                                    </button>
+                                    <p class="p-t-15 m-l-5">Leebert Castro</p>
+                                </div>
+                            </div>  -->
+                            <!-- <div class="row">
+                                <div class="align-middle">
+                                    <button mat-icon-button color="" class="c-social-color" matTooltip="Instagram" matTooltipPosition="left">
+                                        <mat-icon>local_see</mat-icon>
+                                    </button>
+                                    <p class="p-t-15 m-l-5">leebertc45tr0</p>
+                                </div>
+                            </div> -->
+                            <!-- <div class="row">
+                                <div class="align-middle">
+                                    <button mat-icon-button color="" class="c-social-color" matTooltip="Gmail" matTooltipPosition="left">
+                                        <mat-icon>mail</mat-icon>
+                                    </button>
+                                    <p class="p-t-15 m-l-5">Leebert Castro</p>
+                                </div>
+                            </div> -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    <!-- </div> -->
+</div>

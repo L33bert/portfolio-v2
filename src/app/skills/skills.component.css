@@ -1,0 +1,45 @@
+.body {
+    /* background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRNxzv9VOyh6Ul1riQJF7-JO4hsnckZp9Ueyw&usqp=CAU);
+    background-position: center; 
+    background-size: cover; */
+    background-color: white;
+  }
+
+.box-card {
+    margin: auto;
+    width: 300px;
+    height: 300px;
+    border: 1px solid lightgrey;
+    border-radius: 3%;
+}
+
+.box-card-header {
+    margin: auto;
+}
+
+.layer {
+    /* background-color: white; */
+    border: 2px solid #ffce44;
+    margin-bottom: 30px;
+    height: 45px;
+    width: 100%;
+}
+
+.container {
+    background-color: transparent;
+}
+
+.card {
+    background-color: transparent;
+}
+
+#profileImage {
+    height:70px;
+    width:70px; 
+    margin: 5% auto;
+    background-repeat: no-repeat;    
+    border-radius: 50%;
+    /* border: 2px solid #fff; */
+    background-position: center; 
+    background-size: cover;
+  }
