@@ -18,7 +18,7 @@
                             <mat-form-field class="full-width">
                               <mat-label>Your name</mat-label>
                               <input 
-                                    matInput placeholder="Ex. Juan Dela Cruz" 
+                                    matInput placeholder="Your name" 
                                     [formControl]="name" 
                                     required>
                               <mat-error *ngIf="name.invalid">{{getErrorMessage()}}</mat-error>
@@ -27,7 +27,7 @@
                             <mat-form-field class="full-width">
                                 <mat-label>Subject</mat-label>
                                 <input 
-                                    matInput placeholder="Ex. Meeting" 
+                                    matInput placeholder="Your subject" 
                                     [formControl]="subject" 
                                     required>
                                 <mat-error *ngIf="subject.invalid">{{getErrorMessage()}}</mat-error>
