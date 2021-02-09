@@ -21,8 +21,9 @@
   height:250px;
   width:250px; 
   margin: 5% auto;
+
   /* background-image: url(https://mail.google.com/mail/u/1?ui=2&ik=c604277762&attid=0.1&permmsgid=msg-a:r690726950128975380&th=175f274714ccc99d&view=fimg&sz=s0-l75-ft&attbid=ANGjdJ_U3Suwx5bvaPifXAXFJeinj8Ni3247fQkfpYS9ANWpzgMkD0hkXyrZeVv2dYHmSCnOCl1MfzJWZSKYUN_gia6xRbDEGn-V0RCm8ZRbIyY37gxz7AAsNvHKNyo&disp=emb&realattid=ii_khtst0kr0); */
-  background-image: url("/assets/lee.JPG");
+  background-image: url('~src/assets/lee.JPG');
   background-repeat: no-repeat;    
   border-radius: 50%;
   /* border: 2px solid #fff; */
