@@ -15,3 +15,11 @@
   justify-content: center;
   width: 120px;
 }
+
+/*button:hover {
+  color: #274B7F;
+}*/
+
+button:focus {
+  outline: none;
+}

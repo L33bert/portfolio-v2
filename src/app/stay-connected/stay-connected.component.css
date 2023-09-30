@@ -4,8 +4,9 @@
 }
 
 .layer {
-  /* background-color: white; */
-  border: 2px solid #ffce44;
+  background-color: #274B7F; 
+  color: white;
+  /*border: 2px solid #ffce44;*/
   margin-bottom: 30px;
   height: 45px;
   width: 100%;
