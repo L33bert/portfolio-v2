@@ -1,6 +1,6 @@
 .footer {
     width: auto;
     padding: 25px;
-    color: black;
-    background-color: whitesmoke;
+    color: rgb(51, 51, 51);
+    background-color: gainsboro;
 }

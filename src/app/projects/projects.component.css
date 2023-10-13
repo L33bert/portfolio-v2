@@ -1,9 +1,25 @@
 .body {
-  /* background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRNxzv9VOyh6Ul1riQJF7-JO4hsnckZp9Ueyw&usqp=CAU);
-  background-position: center; 
-  background-size: cover; */
   background-color: white;
+  /*background-image: url("/assets/bg.jpg");
+  background-position: center; 
+  background-size: cover;*/
+  
 }
+
+.parallax {
+    /* The image used */
+    background-image: url("/assets/code-bg.jpg");
+  
+    /* Set a specific height */
+    min-height: 500px;
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+ 
 
 .layer {
     background-color: #274B7F; 
